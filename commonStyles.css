@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "title";
+    src: url(fonts/BRLNSDB.ttf);
+}
+
+body
+{
+	/*background-color:#78dfea;*/
+	background: url("images/blueBack.jpg");
+	background-size: cover;
+}
+
+nav
+{
+	background-color:#005492;
+	padding-top: 30px;
+	padding-bottom: 28px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+}
+ 
+ul 
+{
+	 display: inline;
+ }
+
+ul a 
+{
+	color: #ffdf32;
+	padding-top:8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+ul a:hover:not(.active)
+{
+	background-color: black;
+}
+
+.active
+{
+	background-color: #6495ED;
+}
+
+header
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	background: url("images/dandelion.jpg");
+	background-size: cover;
+	font-family: "title";
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header #headerTitle
+{	
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-size: 110px;
+}
+
+header #headerYr
+{
+	margin-top:13px;
+	margin-bottom:0px;
+	font-size:46px;
+	text-align: center;
+}
+
+#logo
+{
+	padding-top:10px;
+	float:right;
+	width:70px;
+	position: absolute;
+	left: 40px;	
+}
+
+hr
+{
+	border-color: #e5c100;
+}

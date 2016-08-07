@@ -1,0 +1,15 @@
+#welcome
+{
+	background-color: white;
+	width:73%;
+	float:left;
+}
+
+#upcomingEvents
+{
+	background-color: blue;
+	text-align: center;
+	float:right;
+	width:26%;
+}
+
