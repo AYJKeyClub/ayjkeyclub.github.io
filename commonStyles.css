@@ -1,25 +1,28 @@
-@font-face {
-    font-family: "title";
-    src: url(fonts/BRLNSDB.ttf);
-}
-
 body
 {
-	/*background-color:#78dfea;*/
 	background: url("images/blueBack.jpg");
 	background-size: cover;
 }
 
-nav
+#topNav 
 {
-	background-color:#005492;
-	padding-top: 30px;
-	padding-bottom: 28px;
-	margin-right:auto;
-	margin-left:auto;
 	text-align:right;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:white;
+}
+
+#bottomNav
+{
+	clear:both;
+	text-align:right;
+	font-family: 'Shadows Into Light', cursive;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top:10px;
+	background-color: white;
 }
  
 ul 
@@ -29,60 +32,76 @@ ul
 
 ul a 
 {
-	color: #ffdf32;
-	padding-top:8px;
-	padding-bottom: 8px;
+	color: #1D416A;
+	padding-top:5px;
+	padding-bottom: 5px;
 	padding-right: 8px;
 	padding-left: 8px;
+	font-size: 20px;
 }
 
 ul a:hover:not(.active)
 {
-	background-color: black;
+	background-color: #E6E7A4;
 }
 
 .active
 {
-	background-color: #6495ED;
+	background-color: #FDCB5A;
 }
 
-header
-{
-	padding-top:20px;
-	padding-bottom:20px;
-	background: url("images/dandelion.jpg");
-	background-size: cover;
-	font-family: "title";
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-header #headerTitle
-{	
-	margin-top: 10px;
-	margin-bottom: 0px;
-	text-align:center;
-	font-size: 110px;
-}
-
-header #headerYr
-{
-	margin-top:13px;
-	margin-bottom:0px;
-	font-size:46px;
-	text-align: center;
-}
-
-#logo
+.logoImg
 {
 	padding-top:10px;
-	float:right;
-	width:70px;
-	position: absolute;
-	left: 20px;	
+	float:left;
+	width:37px;
+	position: relative;
+	left: 14px;
+	
+}
+
+.logoImg#topImg
+{
+	top:-8px;
+}
+
+.logoImg#bottomImg
+{
+	top:-49px;
+}
+
+.logoTitle
+{
+	font-family: "Berlin Sans FB", demi;
+	font-weight: bold;
+	font-size:24px;
+	color: #1D416A;
+	padding-top:10px;
+	float:left;
+	position: relative;
+	left: 20px;
+}
+
+.logoTitle#topTitle
+{	
+	top:-28px;
+}
+
+.logoTitle#bottomTitle
+{
+	top:-70px;
 }
 
 hr
 {
 	border-color: #e5c100;
+}
+
+footer
+{
+	display: inline-block;
+	position:relative;
+	text-align: center;
+	width:100%;
+	font-family: "Lucida Sans";
 }

@@ -1,0 +1,26 @@
+header
+{
+	padding-top:50px;
+	padding-bottom:60px;
+	background: url("images/sunsetSmall.png");
+	background-size: cover;
+	font-family: "impact";
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+header #headerTitle
+{	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-size: 93px;
+	color:white;
+}
+
+#aboutUs
+{
+	width:60%;
+	background-color:red;
+	margin-left:120px;
+}

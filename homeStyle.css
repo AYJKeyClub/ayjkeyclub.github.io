@@ -1,15 +1,84 @@
+@font-face
+{
+	font-family:"paint";
+	src: url(fonts/KGLifeisMessy.ttf)
+}
+
+header
+{
+	padding-top:200px;
+	padding-bottom:120px;
+	background: url("images/sunset.jpg");
+	background-size: cover;
+	font-family: "impact";
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+header #headerTitle
+{	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-size: 110px;
+	color:white;
+}
+
+header #headerYr
+{
+	margin-top:13px;
+	margin-bottom:0px;
+	font-size:46px;
+	text-align: center;
+	color: white;
+}
+
+#pinkScribblePencil
+{
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	height: 30px;
+}
+
 #welcome
 {
 	background-color: white;
-	width:73%;
+	width:77%;
 	float:left;
+	font-family: "Berlin Sans FB", demi;
+	margin-bottom: 10px;
+	margin-right: 15px;
 }
 
 #upcomingEvents
 {
-	background-color: blue;
 	text-align: center;
-	float:right;
-	width:26%;
+	margin-bottom: 10px;
+	border: 5px ridge black;
+	background: url("images/corkboard.jpg");
+	background:cover;
+	font-family: "paint";
+	font-size:17px;
+	height:400px;
+	float:left;
 }
 
+#upcomingEvents #upcomingEventsTitle
+{
+	color:#000080;
+	position:relative;
+	top:-16px;
+}
+
+.events
+{
+	width:300px;
+	position:relative;
+}
+
+.events#noEvents
+{
+	top:-60px;
+}
