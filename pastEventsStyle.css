@@ -1,0 +1,58 @@
+.albumTitle
+{
+	text-align: center;
+	font-family: "pristina";
+	font-size:40px;
+	padding-top:7px;
+}
+
+.albumTitle.followingAlbumTitle
+{
+	margin-bottom:9px;
+}
+
+.event
+{
+	width:902px;
+	margin: auto;
+	margin-bottom:20px;	
+
+}
+
+.event.followingEvent
+{
+	clear:left;
+	padding-top:10px;
+}
+
+.pic
+{
+	float:left;
+	width:360px;
+	margin-bottom:16px;
+}
+
+.actualPic
+{
+	width:340px;
+	height:270px;
+}
+
+.description
+{
+	float:left;
+	width:542px;
+	background-color:white;
+	argin-bottom:16px;
+}
+
+hr.hrLIne
+{
+	margin-top:20px;
+}
+
+p
+{
+	margin: 7px;
+}
+

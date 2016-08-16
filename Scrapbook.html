@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> AYJ Key Club </title>
+	<link rel="stylesheet" type="text/css" href="commonStyles.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="commonPagesStyle.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="scrapbookStyle.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Lobster|Pacifico|Shadows+Into+Light|Righteous' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<img class="logoImg" id="topImg"  src="siteImages/logo.png"/> 	
+	<p class="logoTitle" id = "topTitle" >Key Club International</p>
+	
+	<div id="topNav">
+		<ul><a href = "index.html">Home</a></ul>
+		<ul><a href = "About.html">About Us</a></ul>
+		<ul><a href = "UpcomingEvents.html">Upcoming Events</a></ul>
+		<ul><a href = "PastEvents.html">Past Events</a></ul>
+		<ul><a class = "active" href = "Scrapbook.html">Scrapbook</a></ul>
+	</div>
+	
+	<header>	
+		<h1 id="headerTitle">Scrapbook</h1>		
+	</header>
+	
+	<div id="slideshow" >
+		<img class="picS" id="fadeOut" src="clubImages/bandit.jpg"/>	
+		<img class="picS" id="fadeOut" src="clubImages/breezy.jpg"/>
+		<img class="picS" id="fadeOut" src="clubImages/princess.jpg"/>
+		<img class="picS" id="fadeOut" src="clubImages/lexy.jpg"/>	
+		<img class="picS" id="fadeOut" src="clubImages/bolt.jpg"/>
+	</div>
+	
+	<!-- Script for the slideshow -->
+	<script>
+		var whichPic=0;
+		var slides= document.getElementsByClassName("picS");
+		function showSlideshow()
+		{
+			
+			for (var i=0; i < slides.length; i++)
+			{
+				slides[i].style.display="none";
+			}
+
+			slides[whichPic].style.display="block";
+			
+			setTimeout(function()
+			{	
+				
+				slides[whichPic].removeAttribute("id");
+				whichPic++;
+				if (whichPic == slides.length)
+				{
+					whichPic=0;
+				}
+			},500);
+			
+			setTimeout(function()
+			{	
+				
+				slides[whichPic].id = "fadeOut";
+			},500);
+			
+			setTimeout(showSlideshow,4000);
+		}
+		showSlideshow();
+	</script>
+	
+	<h1 class="albumTitle">Neko Atsume - 12/34/5678</h1>
+	
+	<div id = "pictures">
+		<img class="pic" id="img1" src="clubImages/bandit.jpg" alt="Don't let him steal your food!" onClick="createModal('img1')">	
+		<img class="pic" id="img2" src="clubImages/breezy.jpg" alt="Easy breezy beautiful!" onClick="createModal('img2')">
+		<img class="pic" id="img3" src="clubImages/princess.jpg" alt="Princess is a princess :)" onClick="createModal('img3')">
+		<img class="pic" id="img4" src="clubImages/lexy.jpg"  alt="Lexyyyy!" onClick="createModal('img4')">	
+		<img class="pic" id="img5" src="clubImages/bolt.jpg" alt="Boltinator!" onClick="createModal('img5')">
+	</div>
+	
+	<div id="theModal" class="modal"> 
+		<span class="closeBtn">x</span>
+		<img class="modalImg" id="image">
+		<div id="imgCaption"> </div>
+	</div>
+	
+	<!-- script for the image modal -->
+	<script>
+		function createModal(img)
+		{
+			var modal=document.getElementById("theModal");
+			var pic=document.getElementById(img);
+			var modalPic=document.getElementById("image");
+			var caption=document.getElementById("imgCaption");
+			
+			pic.onclick=function()
+			{
+				modal.style.display="block";
+				modalPic.src = this.src;
+				modalPic.alt = this.alt;
+				caption.innerHTML=this.alt;
+			}
+			
+			var close=document.getElementsByClassName("closeBtn")[0];
+			close.onclick=function()
+			{
+				modal.style.display="none";
+			}
+		}
+	</script>
+
+	<div id="bottomNav">
+		<ul><a href = "index.html">Home</a></ul>
+		<ul><a href = "About.html">About Us</a></ul>
+		<ul><a href = "UpcomingEvents.html">Upcoming Events</a></ul>
+		<ul><a href = "PastEvents.html">Past Events</a></ul>
+		<ul><a class = "active" href = "Scrapbook.html">Scrapbook</a></ul>
+	</div>
+	
+	<img class="logoImg" id="bottomImg"  src="siteImages/logo.png"/> 	
+	<p class="logoTitle" id="bottomTitle" >Key Club International</p>
+		
+		
+	<footer>
+		<a href = "https://www.facebook.com/AYJacksonKeyClub/?fref=ts" target="_blank">Visit our Facebook Page</a>
+		<p>© 2016 A.Y. Jackson Key Club</p>
+	</footer>
+	
+</body>
+</html>

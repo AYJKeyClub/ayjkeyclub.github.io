@@ -8,7 +8,7 @@ header
 {
 	padding-top:200px;
 	padding-bottom:120px;
-	background: url("images/sunset.jpg");
+	background: url("siteImages/sunset.jpg");
 	background-size: cover;
 	font-family: "impact";
 	margin-top: 0px;
@@ -42,26 +42,35 @@ header #headerYr
 	height: 30px;
 }
 
+#info
+{
+	width:1470px;
+	margin: 0 auto;
+}
+
 #welcome
 {
 	background-color: white;
-	width:77%;
+	width:1100px;
 	float:left;
-	font-family: "Berlin Sans FB", demi;
+	font-family: "pristina";
 	margin-bottom: 10px;
 	margin-right: 15px;
+	border: 5px groove plum;
+	margin-left: 5px;
 }
 
 #upcomingEvents
 {
 	text-align: center;
+	width:330px;
 	margin-bottom: 10px;
 	border: 5px ridge black;
-	background: url("images/corkboard.jpg");
+	background: url("siteImages/corkboard.jpg");
 	background:cover;
 	font-family: "paint";
 	font-size:17px;
-	height:400px;
+	height:600px;
 	float:left;
 }
 
@@ -70,6 +79,8 @@ header #headerYr
 	color:#000080;
 	position:relative;
 	top:-16px;
+	text-decoration: underline;
+	text-decoration-color: #000080
 }
 
 .events
@@ -81,4 +92,7 @@ header #headerYr
 .events#noEvents
 {
 	top:-60px;
+	margin-right:auto;
+	margin-left:auto;
 }
+

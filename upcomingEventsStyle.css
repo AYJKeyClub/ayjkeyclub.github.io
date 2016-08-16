@@ -1,0 +1,16 @@
+#allEvents
+{
+	background-color:white;
+	width:1102px;
+	margin: auto;
+	border: 5px groove plum;
+}
+
+.eventTitle
+{
+	text-align: center;
+	font-family: "pristina";
+	font-size:30px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}

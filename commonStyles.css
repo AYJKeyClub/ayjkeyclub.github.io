@@ -1,6 +1,6 @@
 body
 {
-	background: url("images/blueBack.jpg");
+	background-color: #9CCAF7;
 	background-size: cover;
 }
 
@@ -56,8 +56,7 @@ ul a:hover:not(.active)
 	float:left;
 	width:37px;
 	position: relative;
-	left: 14px;
-	
+	left: 14px;	
 }
 
 .logoImg#topImg
@@ -103,5 +102,7 @@ footer
 	position:relative;
 	text-align: center;
 	width:100%;
-	font-family: "Lucida Sans";
+	font-family: "chalet parisnineteensixty";
+	font-size:20px;
+	top:-20px;
 }
