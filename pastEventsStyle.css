@@ -43,15 +43,10 @@
 	float:left;
 	width:542px;
 	background-color:white;
-	argin-bottom:16px;
+	margin-bottom:16px;
 }
 
-hr.hrLIne
-{
-	margin-top:20px;
-}
-
-p
+.eventDescription
 {
 	margin: 7px;
 }
