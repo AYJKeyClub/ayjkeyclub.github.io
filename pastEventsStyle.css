@@ -1,8 +1,8 @@
 .albumTitle
 {
 	text-align: center;
-	font-family: "pristina";
-	font-size:40px;
+	font-family: 'Rancho', cursive;
+	font-size:33px;
 	padding-top:7px;
 }
 
@@ -15,8 +15,6 @@
 {
 	width:922px;
 	margin: auto;
-	margin-bottom:20px;	
-
 }
 
 .event.followingEvent

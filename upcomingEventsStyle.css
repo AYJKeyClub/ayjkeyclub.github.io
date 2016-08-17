@@ -1,16 +1,17 @@
 #allEvents
 {
 	background-color:white;
-	width:1102px;
+	width:1135px;
 	margin: auto;
 	border: 5px groove plum;
+	margin-bottom:35px;
 }
 
 .eventTitle
 {
 	text-align: center;
-	font-family: "pristina";
-	font-size:30px;
+	font-family: 'Rancho', cursive;
+	font-size:33px;
 	margin-top: 10px;
 	margin-bottom:10px;
 }

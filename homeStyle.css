@@ -10,7 +10,7 @@ header
 	padding-bottom:120px;
 	background: url("siteImages/sunset.jpg");
 	background-size: cover;
-	font-family: "impact";
+	font-family: 'Denk One', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
@@ -40,6 +40,7 @@ header #headerYr
 	margin-left: auto;
 	display:block;
 	height: 30px;
+	margin-top:10px;
 }
 
 #info
@@ -54,8 +55,9 @@ header #headerYr
 	background-color: white;
 	width:700px;
 	height:600px;
-	font-family: "pristina";
-	margin-bottom: 10px;
+	font-family: 'Rancho', cursive;
+	font-size:20px;
+	margin-bottom: 35px;
 	margin-right: 15px;
 	border: 5px groove plum;
 	float:left;
