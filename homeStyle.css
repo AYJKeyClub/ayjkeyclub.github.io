@@ -64,6 +64,12 @@ header #headerYr
 	display: inline-block;
 }
 
+.welcomeTitle
+{
+	position:relative;
+	top:-16px;
+}
+
 #upcomingEvents
 {
 	float:left;
