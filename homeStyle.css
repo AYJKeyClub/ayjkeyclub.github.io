@@ -70,6 +70,13 @@ header #headerYr
 	top:-16px;
 }
 
+.welcomeInfo
+{
+	margin-left:20px;
+	font-size:22px;
+	font-family: 'Oxygen', sans-serif;
+}
+
 #upcomingEvents
 {
 	float:left;
@@ -100,9 +107,10 @@ header #headerYr
 	position:relative;
 }
 
-.events#noEvents
+.events#colorfest
 {
-	top:-60px;
+	top:-30px;
 	margin-right:auto;
 	margin-left:auto;
+	width:240px;
 }
