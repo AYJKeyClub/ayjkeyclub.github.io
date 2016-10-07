@@ -15,6 +15,7 @@
 {
 	width:922px;
 	margin: auto;
+	text-align: center;
 }
 
 .event.followingEvent
@@ -26,20 +27,20 @@
 .pic
 {
 	float:left;
-	width:360px;
+	width:420px;
 	margin-bottom:35px;
 }
 
 .actualPic
 {
-	width:340px;
+	width:400px;
 	height:270px;
 }
 
 .description
 {
 	float:left;
-	width:552px;
+	width:430px;
 	background-color:white;
 	margin-bottom:16px;
 	border: 5px groove plum;
@@ -51,5 +52,7 @@
 .eventDescription
 {
 	margin: 7px;
+	text-align:left;
+
 }
 
