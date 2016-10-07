@@ -54,7 +54,7 @@ header #headerYr
 {
 	background-color: white;
 	width:770px;
-	height:600px;
+	height:650px;
 	font-family: 'Rancho', cursive;
 	font-size:20px;
 	margin-bottom: 35px;
@@ -113,4 +113,9 @@ header #headerYr
 	margin-right:auto;
 	margin-left:auto;
 	width:240px;
+}
+
+.execPic
+{
+	width:550px;
 }
