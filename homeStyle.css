@@ -45,23 +45,25 @@ header #headerYr
 
 #info
 {
-	width:1200px;
+	width:1135px;
 	text-align:center;
 	margin: 0 auto;
+	overflow:hidden;
+	background-color: white;
+	border: 5px groove plum;
+	position:relative;
 }
 
 #welcome
 {
 	background-color: white;
-	width:770px;
-	height:650px;
+	width:700px;
+	height:630px;
 	font-family: 'Rancho', cursive;
 	font-size:20px;
 	margin-bottom: 35px;
 	margin-right: 15px;
-	border: 5px groove plum;
-	float:left;
-	display: inline-block;
+	position:absolute;
 }
 
 .welcomeTitle
@@ -79,17 +81,14 @@ header #headerYr
 
 #upcomingEvents
 {
-	float:left;
+	float:right;
 	width:370px;
-	margin-bottom: 10px;
 	border: 5px ridge black;
 	background: url("siteImages/corkboard.jpg");
 	background:cover;
 	font-family: "paint";
 	font-size:17px;
-	height:600px;
-	display: inline-block;
-	
+	height:600px;	
 }
 
 #upcomingEvents #upcomingEventsTitle

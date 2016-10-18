@@ -14,8 +14,10 @@
 .event
 {
 	width:922px;
-	margin: auto;
+	margin: 0 auto;
 	text-align: center;
+	background-color:red;
+	position:relative;
 }
 
 .event.followingEvent
@@ -46,7 +48,7 @@
 	border: 5px groove plum;
 	font-family: 'Oxygen', sans-serif;
 	font-size:20px;
-	height:250px;
+	height:260px;
 }
 
 .eventDescription
