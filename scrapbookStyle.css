@@ -106,8 +106,8 @@ slight changes were made to fit this website's circumstances
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #slideshow
 {
-	width:400px;
-	height:300px;
+	width:467px;
+	height:311px;
 	margin: 0 auto;
 	border-style: outset;
 	border-color: black;
@@ -116,8 +116,8 @@ slight changes were made to fit this website's circumstances
 .picS {
     opacity:1;
     transition: opacity 1s;
-	width:400px;
-	height:300px;
+	width:467px;
+	height:311px;
 }
 
 .picS#fadeOut {
