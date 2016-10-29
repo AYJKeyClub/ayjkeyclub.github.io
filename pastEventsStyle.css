@@ -13,10 +13,9 @@
 
 .event
 {
-	width:922px;
+	width:900px;
 	margin: 0 auto;
 	text-align: center;
-	background-color:red;
 	position:relative;
 }
 
@@ -35,7 +34,7 @@
 
 .actualPic
 {
-	width:400px;
+	width:370px;
 	height:270px;
 }
 
